@@ -29,7 +29,7 @@ import Globe3D from './components/Globe3D'
 import CyberTyper from './components/CyberTyper'
 import ProjectMatcher from './components/ProjectMatcher'
 import ChatAssistant from './components/ChatAssistant'
-import profileImg from '/shahnabi.png'
+import profileImg from './assets/shahnabi.png'
 
 // Scroll Reveal Section Wrapper
 const ScrollRevealSection = ({ children, id, className = '' }) => {
