@@ -8,6 +8,7 @@ import Card3D from '../components/Card3D'
 import HeroScene3D from '../components/HeroScene3D'
 import MagneticButton from '../components/MagneticButton'
 import TypewriterText from '../components/TypewriterText'
+import profileImg from '/shahnabi.png'
 import InfiniteMarquee from '../components/InfiniteMarquee'
 import AnimatedCounter from '../components/AnimatedCounter'
 import GlowingBorder from '../components/GlowingBorder'
@@ -194,7 +195,7 @@ const Home = () => {
                   {/* Profile Image */}
                   <div className="absolute inset-2 rounded-full bg-gradient-to-br from-primary/30 to-accent/30 flex items-center justify-center overflow-hidden">
                     <img 
-                      src="/shahnabi.png" 
+                      src={profileImg} 
                       alt="Shah Nabi" 
                       className="w-full h-full object-cover grayscale"
                     />

@@ -29,6 +29,7 @@ import Globe3D from './components/Globe3D'
 import CyberTyper from './components/CyberTyper'
 import ProjectMatcher from './components/ProjectMatcher'
 import ChatAssistant from './components/ChatAssistant'
+import profileImg from '/shahnabi.png'
 
 // Scroll Reveal Section Wrapper
 const ScrollRevealSection = ({ children, id, className = '' }) => {
@@ -365,7 +366,7 @@ function App() {
               {/* Portrait Image Container */}
               <div className="relative w-full h-full overflow-hidden">
                 <img 
-                  src="/shahnabi.png" 
+                  src={profileImg} 
                   alt="Syed Shah Nabi" 
                   className="w-full h-full object-cover object-top noir-portrait"
                 />
